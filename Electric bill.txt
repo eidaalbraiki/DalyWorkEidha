@@ -1,0 +1,17 @@
+Calculate the Electricty bill algortham 
+
+input 
+enter the number of   units 
+the rate per units is 25 per day 
+tax is 5 %
+calculate the units *rate +5%
+print the total 
+
+Electrical bill (formula:p*u+tax)
+
+
+1-Start 
+2-Read the Value Units , price ,tax 
+3-let bill =(price*Units)+tax
+4-print bill
+5-stop
