@@ -1,0 +1,18 @@
+
+public class loop10to0 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//print the number from 10 to 0 
+		for (int i = 10; i>=0; i--)
+		{
+			
+			System.out.println(i);
+		}
+		
+
+	}
+
+}
