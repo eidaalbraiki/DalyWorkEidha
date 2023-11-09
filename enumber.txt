@@ -1,0 +1,25 @@
+
+public class enumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x, y , z , Temp;
+		
+		x =23;
+		y= 33;
+		z = 45;
+		Temp = 0;
+		
+		if(x>=y)
+		{
+			x=Temp;
+		}
+		else if(Temp >=z)
+		{
+			System.out.print("The highest number");
+		}
+
+	}
+
+}

@@ -1,0 +1,25 @@
+
+public class Greater {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x, y,z;
+		
+		x =10;
+		y=15;
+		z=89;
+		
+		if(x>y)
+		{
+			System.out.print("Frist number is Greater");
+		}
+		else {
+			System.out.print("Seconed Number is Greater");
+		}
+			
+		
+		}
+
+	}
+
