@@ -1,0 +1,24 @@
+
+public class FactorialCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 9; // Change this to the desired value of N
+
+        // Calculate the square of the sum
+        double squareOfSum = Math.pow((n * (n + 1) / 2), 2);
+
+        // Calculate the sum of the squares
+        double sumOfSquares = (n * (n + 1) * (2 * n + 1)) / 6;
+
+        // Display the results
+        System.out.println("Square of the sum: " + squareOfSum);
+        System.out.println("Sum of the squares: " + sumOfSquares);
+
+        // Calculate the difference
+        double difference = squareOfSum - sumOfSquares;
+
+        // Display the difference
+        System.out.println("The difference is: " + difference);
+    }
+}
