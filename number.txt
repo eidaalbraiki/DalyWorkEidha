@@ -1,0 +1,35 @@
+
+public class Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+		        int rows = 5;
+		        int num = 1;
+
+		        for (int i = 1; i <= rows; i++) {
+		            int spaces = rows - i;
+
+		            // Printing spaces before numbers
+		            for (int j = 1; j <= spaces; j++) {
+		                System.out.print(" ");
+		            }
+
+		            // Left part of the pattern
+		            for (int j = 1; j <= i; j++) {
+		                System.out.print(num);
+		                num++;
+		            }
+
+		            // Right part of the pattern
+		            for (int j = 1; j < i; j++) {
+		                System.out.print(num - 2);
+		                num--;
+		            }
+
+		            System.out.println();
+		            num = 1 + i; // Resetting the 'num' variable for the next row
+		        }
+		    }
+		}

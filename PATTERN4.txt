@@ -1,0 +1,26 @@
+
+public class PATTERN4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		        int rows = 7; // Number of rows for the reverse triangle
+
+		        // Loop for rows
+		        for (int i = 0; i < rows; i++) {
+		            // Loop for printing spaces before stars
+		            for (int j = 0; j < i; j++) {
+		                System.out.print(" ");
+		            }
+
+		            // Loop for printing stars in decreasing order
+		            for (int k = rows; k > i; k--) {
+		                System.out.print("* ");
+		            }
+
+		            // Move to the next line for the next row
+		            System.out.println();
+		        }
+		    }
+		}
